@@ -1,0 +1,54 @@
+.div1 {
+    box-shadow: 0px 7px 29px 0px rgba(40, 106, 160, 0.2);
+
+}
+
+.title {
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.cards {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-size: 20px;
+}
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 29px 0px rgba(40, 106, 160, 0.2);
+}
+
+.btnWrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.btnCreater {
+    width: 440px;
+    padding: 5px 0;
+    margin-top: 20px;
+    border: 1px solid grey;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 7px 29px 0px rgba(40, 106, 160, 0.2);
+
+}
+
+.btnCreater:hover {
+    background-color: #3ea4d093;
+    color: white;
+    font-style: bold;
+}
